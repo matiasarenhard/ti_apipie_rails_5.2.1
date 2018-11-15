@@ -2,6 +2,7 @@ class PeopleController < ApplicationController
   before_action :set_person, only: [:show, :update, :destroy]
 
   # GET /people
+  api!
   def index
     @people = Person.all
 
@@ -9,11 +10,13 @@ class PeopleController < ApplicationController
   end
 
   # GET /people/1
+  api!
   def show
     render json: @person
   end
 
   # POST /people
+  api!
   def create
     @person = Person.new(person_params)
 
@@ -25,6 +28,7 @@ class PeopleController < ApplicationController
   end
 
   # PATCH/PUT /people/1
+  api!
   def update
     if @person.update(person_params)
       render json: @person

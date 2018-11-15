@@ -6,6 +6,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.11'
+gem 'jbuilder', '~> 2.8'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'apipie-rails', '~> 0.5.13'

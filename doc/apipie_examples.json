@@ -1,0 +1,56 @@
+{
+  "apipies#index": [
+    {
+      "verb": "GET",
+      "path": "/apipie",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": null,
+      "response_data": "<!DOCTYPE html>\n<html>\n<head>\n  <title>API documentation</title>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap.min.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/prettify.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap-responsive.min.css'/>\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/application.css'/>\n  <!-- IE6-8 support of HTML5 elements -->\n  <!--[if lt IE 9]>\n    <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n<body>\n  <div class=\"container-fluid\">\n    <div class=\"row-fluid\">\n      <div id='container'>\n        <ul class='breadcrumb'>\n  <li class='active'><a href='/apipie/1.0.en.html'>TiApipieRails521 1.0</a></li>\n  \n</ul>\n\n<div>\n<p>Another API description</p>\n</div>\n\n<h1 class='page-header'>Resources</h1>\n\n  <h2>\n    <a href='/apipie/1.0/people.en.html'>\n      People\n    </a>\n    <br>\n    <small></small>\n  </h2>\n  <table class='table'>\n    <thead>\n      <tr>\n        <th>Resource</th>\n        <th>Description</th>\n      </tr>\n    </thead>\n    <tbody>\n          <tr>\n            <td>\n              <a href='/apipie/1.0/people/index.en.html'>GET /people</a>\n            </td>\n            <td width='60%'></td>\n          </tr>\n          <tr>\n            <td>\n              <a href='/apipie/1.0/people/show.en.html'>GET /people/:id</a>\n            </td>\n            <td width='60%'></td>\n          </tr>\n          <tr>\n            <td>\n              <a href='/apipie/1.0/people/create.en.html'>POST /people</a>\n            </td>\n            <td width='60%'></td>\n          </tr>\n          <tr>\n            <td>\n              <a href='/apipie/1.0/people/update.en.html'>PATCH /people/:id</a>\n            </td>\n            <td width='60%'></td>\n          </tr>\n          <tr>\n            <td>\n              <a href='/apipie/1.0/people/update.en.html'>PUT /people/:id</a>\n            </td>\n            <td width='60%'></td>\n          </tr>\n    </tbody>\n  </table>\n\n\n        \n      </div>\n    </div>\n    <hr>\n    <footer></footer>\n  </div>\n  <script type='text/javascript' src='/apipie/javascripts/bundled/jquery.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/bootstrap-collapse.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/prettify.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/apipie.js'></script>\n</body>\n</html>\n",
+      "code": 200,
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "GET",
+      "path": "/apipie/1.0/people/index.en.html",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": null,
+      "response_data": "<!DOCTYPE html>\n<html>\n<head>\n  <title>API documentation</title>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap.min.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/prettify.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap-responsive.min.css'/>\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/application.css'/>\n  <!-- IE6-8 support of HTML5 elements -->\n  <!--[if lt IE 9]>\n    <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n<body>\n  <div class=\"container-fluid\">\n    <div class=\"row-fluid\">\n      <div id='container'>\n        <h1 class='page-header'>\n  Oops!!\n  <small>\n    Method <code>index.en</code> not found for resource <code>people</code>.\n  </small>\n</h1>\n\n\n        \n      </div>\n    </div>\n    <hr>\n    <footer></footer>\n  </div>\n  <script type='text/javascript' src='/apipie/javascripts/bundled/jquery.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/bootstrap-collapse.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/prettify.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/apipie.js'></script>\n</body>\n</html>\n",
+      "code": 404,
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "GET",
+      "path": "/apipie/1.0/people/index.html",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": null,
+      "response_data": "<!DOCTYPE html>\n<html>\n<head>\n  <title>API documentation</title>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap.min.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/prettify.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap-responsive.min.css'/>\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/application.css'/>\n  <!-- IE6-8 support of HTML5 elements -->\n  <!--[if lt IE 9]>\n    <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n<body>\n  <div class=\"container-fluid\">\n    <div class=\"row-fluid\">\n      <div id='container'>\n        <ul class='breadcrumb'>\n  <li>\n    <a href='/apipie/1.0.en.html'>TiApipieRails521 1.0</a>\n    <span class='divider'>/</span>\n  </li>\n  <li>\n    <a href='/apipie/1.0/people.en.html'>\n      People\n      \n    </a>\n    <span class='divider'>/</span>\n  </li>\n  <li class='active'>index</li>\n  \n\n</ul>\n\n\n<div>\n\n  \n\n\n\n\n\n\n\n\n</div>\n\n\n        \n      </div>\n    </div>\n    <hr>\n    <footer></footer>\n  </div>\n  <script type='text/javascript' src='/apipie/javascripts/bundled/jquery.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/bootstrap-collapse.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/prettify.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/apipie.js'></script>\n</body>\n</html>\n",
+      "code": 200,
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "GET",
+      "path": "/apipie/1.0/people.en.html",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": null,
+      "response_data": "<!DOCTYPE html>\n<html>\n<head>\n  <title>API documentation</title>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap.min.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/prettify.css'/>\n<link type='text/css' rel='stylesheet' href='/apipie/stylesheets/bundled/bootstrap-responsive.min.css'/>\n  <link type='text/css' rel='stylesheet' href='/apipie/stylesheets/application.css'/>\n  <!-- IE6-8 support of HTML5 elements -->\n  <!--[if lt IE 9]>\n    <script src=\"//html5shim.googlecode.com/svn/trunk/html5.js\"></script>\n  <![endif]-->\n</head>\n<body>\n  <div class=\"container-fluid\">\n    <div class=\"row-fluid\">\n      <div id='container'>\n        <h1 class='page-header'>\n  Oops!!\n  <small>\n    Resource <code>people.en</code> not found.\n  </small>\n</h1>\n\n\n        \n      </div>\n    </div>\n    <hr>\n    <footer></footer>\n  </div>\n  <script type='text/javascript' src='/apipie/javascripts/bundled/jquery.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/bootstrap-collapse.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/bundled/prettify.js'></script>\n<script type='text/javascript' src='/apipie/javascripts/apipie.js'></script>\n</body>\n</html>\n",
+      "code": 404,
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ]
+}
